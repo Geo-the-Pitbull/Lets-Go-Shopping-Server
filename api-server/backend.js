@@ -36,11 +36,6 @@ db.mongoose
     process.exit();
   });
 
-// // simple route
-// app.get("/api", (req, res) => {
-//   res.json({ message: "Welcome to the Amber-Students Classroom Application." });
-// });
-
 // Setting Route middleware
 app.use('/api/Shopping-List/Items', itemRoute),
 app.use('/api/Shopping-List/Categories', categorieRoute),
