@@ -12,13 +12,12 @@ const mongoose = require('mongoose')
             categorie: {
                 type: String,
                 required: [true, 'You must specify a Categorie for the item'],
-                default: 'Food and Drink'
             },
 
             amount: {
                 type: Number,
                 required: [true, 'You must specify an Amount for the item'],
-                default: '2'
+                default: 1
             },
 
             price: {
