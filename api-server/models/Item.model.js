@@ -17,7 +17,7 @@ const mongoose = require('mongoose')
             amount: {
                 type: Number,
                 required: [true, 'You must specify an Amount for the item'],
-                default: 1
+                default: '1',
             },
 
             price: {
